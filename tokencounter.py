@@ -35,8 +35,8 @@ class TokenCounter( unohelper.Base, XTokenCounter,  XAddIn, XServiceName ):
     def getProgrammaticCategoryName( self, aProgrammaticFunctionName ):
         return "Add-In"
 
-    def getDisplayArgumentName( self, aProgrammaticFunctionName ):
-        return "Add-In"
+    #def getDisplayArgumentName( self, aProgrammaticFunctionName ):
+    #    return "Add-In"
 
     def tokencount( self, str ):
         # certainly not the most efficient way to implement ...
